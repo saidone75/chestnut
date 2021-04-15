@@ -9,15 +9,15 @@
   :eval-in-leiningen true
 
   :dependencies [[com.github.plexus/clj-jgit "v0.8.9-preview"]
-                 [org.slf4j/slf4j-nop "1.7.25"]
-                 [org.apache.httpcomponents/httpclient "4.5.3"]
+                 [org.slf4j/slf4j-nop "1.7.30"]
+                 [org.apache.httpcomponents/httpclient "4.5.13"]
                  ;;[re-frame/lein-template "0.2.7-1"]
                  [com.github.plexus/re-frame-template "v0.2.7-1-indent-fix"]
-                 [ancient-clj "0.6.15"]
-                 [clj-http "3.9.1"]]
+                 [ancient-clj "1.0.0"]
+                 [clj-http "3.12.1"]]
 
 
-  :profiles {:test {:dependencies [[org.clojure/core.async "0.3.443"]
+  :profiles {:test {:dependencies [[org.clojure/core.async "1.3.610"]
                                    [com.github.jnr/jnr-process "1.0-SNAPSHOT"]
                                    [clj-webdriver "0.7.2"]]}}
 
