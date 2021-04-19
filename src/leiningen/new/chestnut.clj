@@ -20,7 +20,8 @@
                             [environ "1.2.0"]
                             [com.stuartsierra/component "1.0.0"]
                             [org.danielsz/system "0.4.7"]
-                            [org.clojure/tools.namespace "1.1.0"]])
+                            [org.clojure/tools.namespace "1.1.0"]
+                            [clj-time "0.15.2"]])
 
 (def optional-project-deps '{:garden [lambdaisland/garden-watcher "0.3.3"]
                              :http-kit [http-kit "2.3.0"]
