@@ -12,7 +12,7 @@
 (def default-project-deps '[[org.clojure/clojure "1.10.3"]
                             [org.clojure/clojurescript "1.10.844" :scope "provided"]
                             [com.cognitect/transit-clj "1.0.324"]
-                            [ring "1.9.2"]
+                            [ring "1.9.3"]
                             [ring/ring-defaults "0.3.2"]
                             [bk/ring-gzip "0.3.0"]
                             [ring-logger "1.0.1"]
@@ -41,7 +41,7 @@
 (def project-clj-dev-deps '[[figwheel "0.5.20"]
                             [figwheel-sidecar "0.5.20"]
                             [cider/piggieback "0.5.2"]
-                            [cider/cider-nrepl "0.25.10"]
+                            [cider/cider-nrepl "0.26.0"]
                             [lein-doo "0.1.11"]
                             [reloaded.repl "0.2.4"]])
 
