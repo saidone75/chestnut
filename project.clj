@@ -17,7 +17,7 @@
                  [clj-http "3.12.1"]]
 
 
-  :profiles {:test {:dependencies [[org.clojure/core.async "1.3.610"]
+  :profiles {:test {:dependencies [[org.clojure/core.async "1.3.618"]
                                    [com.github.jnr/jnr-process "1.0-SNAPSHOT"]
                                    [clj-webdriver "0.7.2"]]}}
 
