@@ -14,7 +14,7 @@
                  ;;[re-frame/lein-template "0.2.7-1"]
                  [com.github.plexus/re-frame-template "v0.2.7-1-indent-fix"]
                  [ancient-clj "1.0.0"]
-                 [clj-http "3.12.1"]]
+                 [clj-http "3.12.2"]]
 
 
   :profiles {:test {:dependencies [[org.clojure/core.async "1.3.618"]
