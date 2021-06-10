@@ -32,7 +32,9 @@
                              :lein-sassc [lein-sassc "0.10.5"]
                              :om-next [org.omcljs/om "1.0.0-beta4"]
                              :re-frame [re-frame "0.10.6"]
-                             :reagent [reagent "1.0.0"]
+                             :reagent [[reagent "1.1.0"]
+                                       [cljsjs/react "17.0.2-0"]
+                                       [cljsjs/react-dom "17.0.2-0"]]
                              :rum [rum "0.11.3"]})
 
 (def default-project-plugins '[[lein-cljsbuild "1.1.7"]
@@ -157,7 +159,7 @@
      (http-kit? opts) (conj (get optional-project-deps :http-kit))
      (compojure? opts) (conj (get optional-project-deps :compojure))
      (bidi? opts)     (conj (get optional-project-deps :bidi))
-     (reagent? opts)  (conj (get optional-project-deps :reagent))
+     (reagent? opts)  (concat (get optional-project-deps :reagent))
      (om-next? opts)  (conj (get optional-project-deps :om-next))
      (rum? opts)      (conj (get optional-project-deps :rum))
      (re-frame? opts) (conj (get optional-project-deps :re-frame))
